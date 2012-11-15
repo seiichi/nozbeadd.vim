@@ -1,0 +1,46 @@
+*nozbeadd.txt*
+
+==============================================================================
+CONTENTS						*nozbeadd-contents*
+
+    1. Introduction ....................... |nozbeadd-introduction|
+    2. Requirements ....................... |nozbeadd-requirements|
+    3. Setting ............................ |nozbeadd-setting|
+    4. Usage .............................. |nozbeadd-usage|
+    5. License ............................ |nozbeadd-license|
+
+==============================================================================
+1. Introduction						*nozbeadd-introduction*
+
+nozbeadd.vim is a utility plugin which allows you to add new actions to your
+inbox of Nozbe.
+
+==============================================================================
+2. Requirements						*nozbeadd-requirements*
+
+- Python
+- Vim compiled with +python
+
+==============================================================================
+3. Setting						*nozbeadd-setting*
+
+The following option must be set in your |.vimrc|: >
+
+    let g:nozbe_api_key = "YOUR NOZBE API KEY"
+
+==============================================================================
+4. Usage						*nozbeadd-usage*
+
+Simply run the following command to add new action: >
+
+    :NozbeAdd NEW ACTION
+
+==============================================================================
+5. License						*nozbeadd-license*
+
+Licensed under the BSD 2.0 new license, which can be found at:
+
+    http://www.opensource.org/licenses/bsd-license.php
+
+
+vim:tw=78:sw=4:ts=8:ft=help:norl:
