@@ -40,4 +40,4 @@ class Nozbe(object):
         except urllib2.URLError, e:
             self._err("failed to access the server [%s]" % (e))
         except ValueError, e:
-            self._err("failed to add new action [%s]'" % (e))
+            self._err("failed to add new action [%s]" % (e))
